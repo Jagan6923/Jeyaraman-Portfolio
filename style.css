@@ -437,6 +437,9 @@ footer {
 footer p {
     text-align: center;
 }
+footer a{
+    font-size: 0.8em;
+}
 
 @media screen and (max-width: 1400px) {
     #profile {
