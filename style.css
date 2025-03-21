@@ -178,7 +178,7 @@ section {
 }
 
 .section__pic-container img {
-    border-radius: 20px;
+    border-radius: 20px 20px 4px 4px;
 }
 
 .section__text {
