@@ -2,6 +2,7 @@ import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.jpg";
+import project5 from "../assets/project5.png";
 export const projectsData = [
   {
     title: "SecuroSphere",
@@ -44,7 +45,16 @@ export const projectsData = [
       "A gym To-Do app with exercise tracking, API-driven data management, and automated motivational quotes on app launch.",
     image: project3,
     tags: ["MongoDB", "Express.js", "React", "Node.js"],
-    demoUrl: "https://github.com/Jagan6923/Note-taking-app-for-GYM",
+    demoUrl: "https://note-taking-app-for-gym.vercel.app/",
     githubUrl: "https://github.com/Jagan6923/Note-taking-app-for-GYM",
+  },
+  {
+    title: "Computer Tuition Center Management",
+    description:
+      "A MERN stack-based app to manage student enrollments, course schedules, staff roles, fee collection, and attendance tracking for a computer training institution.",
+    image: project5,
+    tags: ["MongoDB", "Express.js", "React", "Node.js"],
+    demoUrl: "https://cadd-tution-project-rnoe.vercel.app/login", 
+    githubUrl: "https://github.com/Jagan6923/Cadd_Tution_Project", 
   },
 ];
