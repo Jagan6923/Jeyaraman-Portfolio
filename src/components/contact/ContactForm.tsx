@@ -23,7 +23,7 @@ export default function ContactForm() {
         })
         .then(
           () => {
-            toast.success("😊 Happy to get your message! I'll reply soon.");
+            toast.success("Happy to get your message! I'll reply soon. 😊");
             setFormData({ name: "", email: "", message: "" });
           },
           (error) => {
