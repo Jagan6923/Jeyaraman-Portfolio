@@ -20,7 +20,7 @@ export default function ContactInfo() {
         <div className="flex items-center">
           <Phone className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-3" />
           <a
-            href="tel:+1234567890"
+            href="tel:+91 8072101905"
             className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
           >
             +91 80721 01905
@@ -28,7 +28,7 @@ export default function ContactInfo() {
         </div>
         <div className="flex items-center">
           <MapPin className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-3" />
-          <span className="text-gray-700 dark:text-gray-300">
+          <span className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
             Dindigul, Tamilnadu, India
           </span>
         </div>

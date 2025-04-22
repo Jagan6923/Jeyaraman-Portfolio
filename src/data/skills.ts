@@ -15,7 +15,6 @@ export const skillsData = [
       { name: "TypeScript", level: 4 },
       { name: "React", level: 4 },
       { name: "Bootstrap", level: 3 },
-      { name: "Tailwind CSS", level: 4 },
     ],
   },
   {
