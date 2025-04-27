@@ -7,18 +7,15 @@ export default function Hero() {
       id="home"
       className="pt-20 min-h-screen flex items-center relative bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800"
     >
-      {/* Background Image */}
       <div className="absolute inset-0">
         <img
           src={img}
           alt="Jeyaraman"
           className="w-full h-full object-cover opacity-50 dark:opacity-70" 
         />
-        {/* Stronger dark overlay even in light mode */}
         <div className="absolute inset-0 bg-black/30 dark:bg-black/40" />
       </div>
 
-      {/* Main Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-900 to-purple-600 text-transparent bg-clip-text pb-5">
@@ -29,7 +26,6 @@ export default function Hero() {
             Full Stack Developer | Problem Solver | Tech Enthusiast
           </p>
 
-          {/* Social Media Links */}
           <div className="flex justify-center space-x-4 mb-12">
             <a
               href="https://github.com/Jagan6923"
@@ -80,7 +76,6 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
               href="#projects"
