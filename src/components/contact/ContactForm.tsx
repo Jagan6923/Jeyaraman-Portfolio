@@ -16,7 +16,7 @@ export default function ContactForm() {
 
     try {
       const response = await axios.post(
-        "https://portfolio-backend-l8f2.onrender.com/api/contact",
+        "https://portfolio-backend-l8f2.onrender.com/api/contact/",
         formData
       );
       if (response.status === 201) {
