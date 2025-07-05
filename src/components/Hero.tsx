@@ -1,5 +1,5 @@
 import { Book, Github, Linkedin, Youtube } from "lucide-react";
-import img from "../assets/Blog.png";
+import img from "../assets/Hero.jpg";
 
 export default function Hero() {
   return (
@@ -11,7 +11,7 @@ export default function Hero() {
         <img
           src={img}
           alt="Jeyaraman"
-          className="w-full h-full object-cover opacity-50 dark:opacity-70" 
+          className="w-full h-full object-cover opacity-50 dark:opacity-70"
         />
         <div className="absolute inset-0 bg-black/30 dark:bg-black/40" />
       </div>
